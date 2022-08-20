@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+}
+
+section>.container {
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding: 30px 50px;
+}
+
+#nav-bar {
+    text-align: center;
+    font-size: 20px;
+}
+
+#banner {
+    position: relavive;
+    text-align: center;
+    color: white;
+}
+
+
+/* Tên phía trên ảnh */
+
+.name-pr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -410%);
+    text-transform: capitalize;
+    font-size: 10px;
+    color: bisque;
+}
+
+#banner .name-pr h1 {
+    line-height: 0.7;
+    text-transform: capitalize;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+/* Tên phía thanh điều hướng */
+
+.name-pr2 {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+
+/* Chỉnh độ sáng tối cho ảnh  */
+
+img {
+    filter: brightness(60%);
+}
+
+
+/* phần chữ full stack developer phía trên ảnh */
+
+.fsdv1 {
+    font-size: 18px;
+    color: #ae9b9b;
+    font-size: 16px;
+}
+
+
+/* phần chữ full stack Developer ở thanh điều hướng */
+
+.fsdv2 {
+    color: rgb(199, 199, 182);
+    font-size: 13px;
+}
+
+.container-navb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    border-bottom: 1px solid rgb(238, 230, 230);
+    padding: 20px;
+    margin-top: -60px;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: rgb(176, 176, 201);
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+.container-navb a {
+    text-decoration: none;
+}
+
+.nav3 {
+    text-transform: capitalize;
+    margin-top: 15px;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 0.1;
+}
+
+.container-nntt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 420px;
+    margin-top: -50px;
+}
+
+#target {
+    padding-left: 280px;
+    padding-right: 40px;
+    background-color: rgb(233, 221, 221);
+    /* Ẩn phần nd bị thừa ra */
+    overflow: hidden;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#personal-info {
+    padding-left: 20px;
+    background-color: rgb(201, 190, 190);
+}
+
+.mtnn {
+    line-height: 1.5;
+}
+
+.mt-40 {
+    line-height: 2;
+    padding-left: 20px;
+}
+
+#certificate .section-title {
+    padding-bottom: 32px;
+    padding-top: 70px;
+    padding-left: 260px;
+    margin-bottom: 40px;
+}
+
+.section-title {
+    padding-top: 70px;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+
+/* chỉnh icon ở phần thông tin cá nhân */
+
+.icon-mxh {
+    margin-left: 20px;
+    color: blue;
+    margin-top: 20px;
+}
+
+.ic-toolbox,
+.ic-pencil,
+.ic-telescope,
+.ic-mic,
+.ic-tools-2 {
+    font-size: 38px;
+}
+
+
+/* phần chữ 'hiện tại' trên mục kinh nghiệm */
+
+.ht2 {
+    border: 5px solid rgb(84, 161, 220);
+    border-radius: 10px;
+    background-color: rgb(84, 161, 220);
+}
+
+ul .li2 {
+    /* Chỉnh màu dấu đầu danh sách  */
+    color: blue;
+    list-style-type: disc;
+    font-size: 30px;
+}
+
+ul .li2 span {
+    /* Chỉnh lại màu văn bản để k bị ảnh hưởng bởi thuộc tính trên */
+    color: black;
+    font-size: 15px;
+}
+
+
+/* Tạo border và border-radius cho icon trong mục sở thích */
+
+.ic-megaphone,
+.ic-hotairballoon,
+.ic-strategy,
+.ic-basket {
+    border: 2px solid rgb(84, 161, 220);
+    border-radius: 100px;
+    padding: 10px;
+}
+
+
+/* grid cho mục sở thích */
+
+.st-icon {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px;
+    column-gap: 25px;
+    align-items: center;
+    /* padding-top: 20px; */
+}
+
+
+/* Kích thước phần text trong sở thích  */
+
+.text {
+    font-size: 13px;
+}
+
+
+/* Mục chỉnh thang điểm trong phần ngôn ngữ  */
+
+.thang-diem1,
+.thang-diem2 {
+    background: #199cdb;
+    display: inline-block;
+    height: 4px;
+    margin-right: 10px;
+    width: 45px;
+}
+
+.thang-diem3,
+.thang-diem2-1 {
+    background: #c2ced4;
+    display: inline-block;
+    height: 4px;
+    margin-right: 10px;
+    width: 45px;
+}
+
+
+/* Phần thông tin nghề nghiệp */
+
+.container-ttnn {
+    display: grid;
+    grid-template-columns: 22% 22% 22%;
+    grid-template-rows: 700px;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 40px;
+    padding-top: 50px;
+    line-height: 1.6;
+}
+
+.container-ttnn h2 {
+    font-size: 17px;
+}
+
+#job-info {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+
+/* Tạo viền và chỉnh tỷ lệ icon và text cho phần thông tin nghề nghiệp */
+
+.kn,
+.hv,
+.hd,
+.icon-text,
+.nn,
+.knang {
+    border: 1px solid #c2ced4;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+
+.nn,
+.knang {
+    padding-left: 20px;
+}
+
+.kn,
+.icon-text {
+    background-color: rgb(233, 221, 221);
+}
+
+.hv,
+.nn {
+    background-color: rgb(166, 217, 235);
+}
+
+.hd,
+.knang {
+    background-color: rgb(233, 221, 221);
+}
+
+
+/* Phần Chứng chỉ giải thưởng */
+
+#certificate {
+    background-color: rgb(216, 205, 192);
+}
+
+.container-CCDN {
+    display: grid;
+    grid-template-columns: 36% 36%;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
+    padding-left: 20px;
+    row-gap: 150px;
+    column-gap: 0;
+    font-size: 15px;
+    line-height: 1.1;
+}
+
+.img-text1,
+.img-text2 {
+    border-bottom: 2px solid #d6c08d;
+}
+
+.img-text3 {
+    margin-top: -100px;
+}
+
+.text-ccgt {
+    float: right;
+    width: 55%;
+    font-size: 13.5px;
+}
+
+.cclttk {
+    padding-bottom: 15px;
+}
+
+
+/* .border-cc {
+  border-bottom: 2px solid #d6c08d;
+} */
+
+
+/* Phần dự án */
+
+
+/* chỉnh số 2021 */
+
+.text-2021 {
+    border: 5px solid rgb(84, 161, 220);
+    border-radius: 10px;
+    background-color: rgb(84, 161, 220);
+}
+
+.funix {
+    padding-left: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 310px;
+    height: 70px;
+    padding-top: 20px;
+    margin-bottom: -3px;
+}
+
+
+/* Grid cho phần Dự án */
+
+#project {
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: auto;
+    row-gap: 50px;
+    justify-content: center;
+}
+
+#project-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.text-title {
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    width: 310px;
+    height: 50px;
+    padding-top: 10px;
+    margin-bottom: -1px;
+}
+
+td {
+    padding: 10px;
+}
+
+.bd-tr {
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+}
+
+.bd-tr2 {
+    border-bottom: 1.5px solid rgb(0, 0, 0);
+}
+
+#project-section h1 {
+    padding-bottom: 50px;
+    padding-left: 250px;
+}
+
+
+/* Phần footer */
+
+.container4 {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    background-color: rgb(207, 203, 125);
+}
+
+
+/*icon footer */
+
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled {
+    color: rgb(84, 161, 220);
+    font-size: 22px;
+}
+
+.icon-footer {
+    text-decoration: none;
+}
+
+
+/* Chỉnh thêm icon phần Thông tin cá nhân */
+
+.icon-ttcn {
+    text-decoration: none;
+    color: blue;
+}
+
+
+/* Chỉnh lại phần bị lỗi sau khi đưa Bootstrap CSS vào  */
+
+.kn h1,
+.hv h1,
+.hd h1,
+.icon-text h1,
+.nn h1,
+.knang h1 {
+    font-size: 28px;
+}
+
+
+/* Phần Responsive */
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: rgb(97, 182, 195);
+        width: 100%;
+    }
+    /* Phần dư án */
+    #project-section {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    #project-section h1 {
+        padding-bottom: 50px;
+        padding-left: 10px;
+    }
+}
+
+
+/* Bổ sung Project Charter cho các dự án */
+
+.digital {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 60% 40%;
+    border: 20px solid blue;
+}
+
+.digital3 {
+    grid-row: 4 / -1;
+}
+
+
+/* Phần chữ tiêu đề và border cho những cùng đc hiển thị như đề bài  */
+
+h4 {
+    color: blue;
+    border-bottom: 1px solid rgb(217, 197, 197);
+    padding-left: 20px;
+}
+
+.bd-bottom {
+    border-bottom: 1px solid rgb(217, 197, 197);
+}
+
+
+/* Border đậm*/
+
+.digital1,
+.digital2 {
+    border-bottom: 20px solid blue;
+}
+
+.digital1,
+.digital2,
+.digital4,
+.digital5 {
+    border-right: 10px solid blue;
+    padding-left: 20px;
+}
+
+
+/* background cho phần icon  của digital3*/
+
+.bi-1-circle,
+.bi-2-circle,
+.bi-3-circle,
+.bi-4-circle,
+.bi-5-circle,
+.bi-6-circle,
+.bi-7-circle {
+    color: rgb(209, 6, 209);
+}

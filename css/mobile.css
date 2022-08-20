@@ -1,0 +1,136 @@
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgb(219, 219, 150);
+        width: 100%;
+    }
+    /* Ẩn phần tên ở giữa */
+    .nav3 {
+        display: none;
+    }
+    /* Phần thanh điều hướng */
+    .container-navb {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    /* Phần mục tiêu nghề nghiệp-thông tin cá nhân */
+    .container-nntt {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 420px;
+        margin-top: -50px;
+    }
+    #target .mtnn {
+        width: 340px;
+        height: 192px;
+    }
+    #target {
+        margin-left: -240px;
+    }
+    /* Phần thông tin nghề nghiệp */
+    .container-ttnn {
+        display: grid;
+        grid-template-columns: 80%;
+        grid-template-rows: 700px;
+        justify-content: center;
+        row-gap: 40px;
+        column-gap: 30px;
+        padding-top: 40px;
+        line-height: 1.6;
+    }
+    .kn,
+    .hv,
+    .hd,
+    .icon-text,
+    .nn,
+    .knang {
+        background-color: rgb(144, 185, 216);
+    }
+    /* Phần chứng chỉ - giải thưởng */
+    .container-CCDN {
+        display: grid;
+        grid-template-columns: 85%;
+        grid-template-rows: 400px 400px;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        row-gap: 50px;
+        /* font-size: 14px; */
+        line-height: 1.5;
+    }
+    .img-text1 {
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 30px;
+    }
+    .img-text2 {
+        padding-right: 10px;
+        margin-top: -10px;
+        padding-left: 10px;
+        margin-bottom: -30px;
+    }
+    .img-text3 {
+        margin-top: 50px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .container-CCDN img {
+        width: 100%;
+    }
+    .text-ccgt {
+        width: 100%;
+    }
+    .text-ccgt {
+        font-size: 24px;
+        line-height: 1;
+    }
+    #certificate .section-title {
+        width: 100%;
+        padding-left: 50px;
+    }
+    /* Phần Dự án */
+    #project-section h1 {
+        padding-bottom: 50px;
+        padding-left: 10px;
+    }
+    /* Phần footer */
+    .icon-facebook-circled,
+    .icon-linkedin-circled,
+    .icon-github-circled {
+        font-size: 50px;
+    }
+    .text-ft {
+        color: rgb(207, 203, 125);
+    }
+    .container4 {
+        display: flex;
+        padding-left: 90px;
+        padding-right: 100px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(207, 203, 125);
+    }
+    /* Phần Prpject Charter */
+    .digital {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        row-gap: 30px;
+        background-color: rgb(200, 200, 240);
+        border: none;
+        padding: 10px;
+    }
+    .digital1,
+    .digital2,
+    .digital4,
+    .digital5 {
+        border: none;
+    }
+    .digital4 {
+        grid-row: 2 / 3;
+    }
+    .digital5 {
+        grid-row: 4 / 5;
+    }
+}
